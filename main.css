@@ -1,79 +1,64 @@
 .SandP {
-  width: 1320px;
-}
+  width: 1320px; }
 
-h1, h1, ul, li, {
-  margin: 0;
-}
+h1, h1, ul, li {
+  margin: 0; }
 
 .post-date li a {
   text-decoration: underline;
-  color: HSLA(205, 18%, 68%, 1);
-}
+  color: HSLA(205, 18%, 68%, 1); }
 
 li {
   list-style: none;
-  margin: 0;
-}
+  margin: 0; }
 
 p {
-  color: rgb (0.02, 0.20, 0.30, 1.00);
+  color: rgb 0.02, 0.2, 0.3, 1;
   line-height: 1.6em;
   padding: 0px;
-  margin: 0px;
-}
+  margin: 0px; }
 
 p a {
   text-decoration: underline;
-  color: HSLA(205, 18%, 68%, 1);
-}
+  color: HSLA(205, 18%, 68%, 1); }
 
 p a:hover {
-  color: HSLA(209, 100%, 33%, 1);
-}
+  color: HSLA(209, 100%, 33%, 1); }
 
 header {
   background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg");
   height: 500px;
   width: 1300px;
   overflow: hidden;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .top {
   max-width: 1000px;
   margin: 0 auto;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .inside {
   overflow: auto;
   vertical-align: middle;
   margin-top: 5px;
-  font-size: 15px
-
-}
+  font-size: 15px; }
 
 .wave {
-  float: left;
-}
+  float: left; }
+
 .wave img {
-  vertical-align:middle;
-}
+  vertical-align: middle; }
 
 .links {
   float: right;
   overflow: auto;
   vertical-align: middle;
-  margin-top: 5px;
-}
+  margin-top: 5px; }
 
 .naviglinks {
   padding-top: 1px;
   float: right;
-  font-family: 'Oswald', sans-serif;
-}
-
+  font-family: 'Oswald', sans-serif; }
 
 header h1 {
   color: white;
@@ -81,25 +66,19 @@ header h1 {
   text-align: center;
   margin-top: 100px;
   font-family: 'Oswald', sans-serif;
-  margin-bottom: 2px;
-}
+  margin-bottom: 2px; }
 
 header p {
   text-align: center;
-  font-size: 1.1em;
-}
+  font-size: 1.1em; }
 
-li{
-  list-style: none;
-}
+li {
+  list-style: none; }
 
 /* Body of Page */
-
-
 blockquote {
   font-size: 2em;
-  color: HSLA(209, 100%, 33%, 1);
-}
+  color: HSLA(209, 100%, 33%, 1); }
 
 .post {
   max-width: 1000px;
@@ -107,65 +86,52 @@ blockquote {
   margin-bottom: 5px;
   margin-left: 100px;
   margin-right: 10px;
-  overflow: hidden;
-}
-
+  overflow: hidden; }
 
 article {
   float: left;
   width: 76%;
   padding-right: 150px;
-  padding-top: 50px;
-
-}
+  padding-top: 50px; }
 
 aside {
   float: right;
   width: 35%;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
-.top h1{
+.top h1 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 7em;
   line-height: 1.3em;
-  color: rgba (8, 52, 82, 1.0)
-  margin-bottom: 2px;
-}
+  color: rgba 8, 52, 82, 1;
+  margin-bottom: 2px; }
 
 .post h1 {
-  font-size: 3.2em;
-}
+  font-size: 3.2em; }
 
 .site-author {
   margin-bottom: 40px;
-  font-size: .8em;
-}
+  font-size: .8em; }
 
-.site-author li{
+.site-author li {
   display: inline-block;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 .site-author img {
   width: 24px;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 .authorname {
   color: HSLA(209, 100%, 33%, 1);
-  margin-left: 4px;
-}
+  margin-left: 4px; }
 
 .post-date {
   color: HSLA(205, 18%, 68%, 1);
-  margin-left: 8px;
-}
+  margin-left: 8px; }
 
 .post-date a {
-   color: HSLA(205, 18%, 68%, 1);
-}
+  color: HSLA(205, 18%, 68%, 1); }
 
 .post-options {
   margin-top: 15px;
@@ -173,84 +139,69 @@ aside {
   display: inline-block;
   vertical-align: middle;
   line-height: 0;
-  font-size: .8em;
-}
+  font-size: .8em; }
 
 .post-options li {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
-  background-color: HSLA(205, 9%, 38%, 1);
-}
+  background-color: HSLA(205, 9%, 38%, 1); }
 
 .post-options img {
   vertical-align: middle;
   padding: 7px 5px 7px 8px;
-  height: 2.06em;
-}
+  height: 2.06em; }
 
 .post-options span {
   background-color: HSLA(205, 18%, 68%, 1);
   color: white;
   vertical-align: middle;
   line-height: 28px;
-  padding: 6px 17px 6px 12px;
-}
+  padding: 6px 17px 6px 12px; }
 
 .post-options li:hover {
-  background-color: HSLA(204, 83%, 14%, 1);
-}
+  background-color: HSLA(204, 83%, 14%, 1); }
 
 .post-options li:hover span {
-  background-color: HSLA(209, 100%, 33%, 1);
-}
+  background-color: HSLA(209, 100%, 33%, 1); }
 
 .author {
-  text-align: center;
-}
+  text-align: center; }
 
 .author h3 {
   color: HSLA(209, 100%, 33%, 1);
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .social-media li {
   display: inline-block;
   color: HSLA(205, 18%, 68%, 1);
   font-size: .8em;
-  padding: 0 4px;
-}
+  padding: 0 4px; }
 
 .ad {
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .ad img {
-  width: 100%;
-}
+  width: 100%; }
 
 .ad a {
   color: HSLA(205, 18%, 68%, 1);
   font-size: .8em;
-  float: right;
-}
+  float: right; }
 
 .sidearticle {
   clear: both;
-  margin-top: 60px;
-}
+  margin-top: 60px; }
 
 .sidearticle h3 {
   color: HSLA(209, 100%, 33%, 1);
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-}
+  font-size: 1.2em; }
 
 .sidearticle p {
   color: HSLA(205, 18%, 68%, 1);
-  font-size: .8em;
-}
+  font-size: .8em; }
 
 section {
   width: 100%;
@@ -258,43 +209,35 @@ section {
   border-top: HSLA(205, 18%, 68%, 1) solid 1px;
   padding-top: 50px;
   margin-top: 20px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 section h1 {
   text-align: center;
   margin-bottom: 40px;
-  font-size: 58px;
-}
+  font-size: 58px; }
 
 section li {
   display: inline-block;
   float: left;
   height: 330px;
-  width: 25%;
-}
+  width: 25%; }
 
 .article1 {
-  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-1.jpg");
-}
+  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-1.jpg"); }
 
 .article2 {
-  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-2.jpg");
-}
+  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-2.jpg"); }
 
 .article3 {
-  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-3.jpg");
-}
+  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-3.jpg"); }
 
 .article4 {
-  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-4.jpg");
-}
+  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-4.jpg"); }
 
 section div {
-  background-color: HSLA(209, 100%, 33%, .6);
+  background-color: HSLA(209, 100%, 33%, 0.6);
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 section a {
   color: HSLA(204, 83%, 14%, 1);
@@ -303,23 +246,19 @@ section a {
   text-transform: uppercase;
   text-decoration: none;
   padding-top: 30px;
-  padding-left: 20px;
-}
+  padding-left: 20px; }
 
 section div:hover {
-  background-color: HSLA(209, 100%, 33%, 0);
-}
+  background-color: HSLA(209, 100%, 33%, 0); }
 
 section div:hover a {
-  color: white;
-}
+  color: white; }
 
 .footer {
   margin-left: 40px;
   margin-top: 10px;
-  background-color: rgba(8, 52, 82, 1.0)
-  color: HSLA(205, 18%, 68%, 1)
-}
+  background-color: #083452;
+  color: HSLA(205, 18%, 68%, 1); }
 
 .bottomnav {
   float: right;
@@ -328,5 +267,6 @@ section div:hover a {
   font-size: 1em;
   padding: 0 4px;
   list-style: none;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
+
+/*# sourceMappingURL=main.css.map */
