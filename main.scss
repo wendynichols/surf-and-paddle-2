@@ -12,6 +12,8 @@ $font2: 'Open Sans', sans-serif;
 
 .SandP {
   width: 1300px;
+  border-bottom: 1px solid #b5b0b0;
+  height: 1430px;
 }
 
 .post-date li a {
@@ -24,22 +26,6 @@ li {
   margin: 0;
 }
 
-p {
-    color: $parag;
-    line-height: 1.6em;
-    padding: 0px;
-    margin: 0px;
-
-    p a {
-      text-decoration: underline;
-      color: $links;
-    }
-
-    p a:hover {
-      color: $links;
-    }
-
-}
 
 header {
   background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg");
@@ -119,160 +105,125 @@ li{
 
 /* Body of Page */
 
-article {
-  float: left;
-  width: 1300px;
-  height: 1010px;
-  clear: both;
+.midcontent {
+  overflow: auto;
+  height: 1080px;
 }
 
-
-blockquote {
-  font-size: 2em;
-  color: $lblue;
-}
-
+/////////////////////////
 .post {
-  width: 860px;
-  height: 1010px;
+  width: 784px;
+  height: 882px;
   float: left;
+}
+
+.site-author {
+  margin-bottom: 32px;
 }
 
 .post h1 {
-  height: 132px;
-  font-size: 3.2em;
-  font-family: $font2;
+  color: HSLA(204, 82%, 18%, 1);
+  margin-top: 47px;
+  font-family: "Oswald", sans-serif;
+  font-size: 57px;
+  margin-left: 164px;
+  margin-bottom: -11px;
+}
+
+.post section {
+    margin-left: 162px;
+    font-family: "Oswald", sans-serif;
+    color: HSLA(205, 8%, 40%, 1);
+}
+
+.post blockquote {
+  color: HSLA(206, 84%, 38%, 1);
+  font-family: "Oswald", sans-serif;
+  margin-left: 185px;
+  font-size: 22px;
+}
+
+.post .name {
+  font-family: "Oswald", sans-serif;
+  color: HSLA(206, 84%, 38%, 1);
+  font-size: 13px;
+  }
+
+.post .on {
+  font-family: "Oswald", sans-serif;
+  color: HSLA(206, 18%, 69%, 1);
+  font-size: 14px;
+  }
+
+.post .date {
+  font-family: "Oswald", sans-serif;
+  color: HSLA(206, 18%, 69%, 1);
+  text-decoration: underline;
+  font-size: 14px;
+  }
+
+.post img {
+  height: 15px;
+  margin-left: 164px;
+  }
+
+
+//////////////////////////////////////////
+
+
+
+.rightcolumn {
   float: right;
   display: block;
-  margin-right: 106px;
-  margin-left: 160px;
-  margin-top: 32px;
-  margin-bottom: 10px;
-  line-height: 65px;
-  padding-top: 32px;
-  color: $dblue;
-}
+  width: 275px;
+  height: 882px;
+  margin-right: 160px; }
+  .rightcolumn .surferright {
+    height: 330px;
+    width: 275px;
+    float: left;
+    margin-top: 50px; }
+  .rightcolumn .date {
+    font-family: "Oswald", sans-serif;
+    color: HSLA(206, 18%, 69%, 1);
+    text-decoration: underline;
+    font-size: 12px;
+    float: right; }
+  .rightcolumn .sidebarheading {
+    float: left;
+    color: HSLA(206, 84%, 38%, 1);
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin-top: 30px; }
+  .rightcolumn .sidebartext {
+    margin-top: 10px;
+    color: HSLA(206, 18%, 69%, 1);
+    font-size: 14px;
+    font-weight: thin;
+    font-family: "Oswald", sans-serif;
+    clear: both;
+    display: block; }
 
-aside {
-  float: right;
-  width: 35%;
-  margin-top: 10px;
-}
+.rightimg {
+  margin-left: 92px;
+  margin-top: 70px;
+  height: 85px;
+  width: 85px; }
 
-
-.site-author {
-  margin-bottom: 40px;
-  font-size: .8em;
-}
-
-.site-author li {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.site-author img {
-  width: 24px;
-  vertical-align: middle;
-}
-
-.authorname {
-  color: $lblue;
-  margin-left: 4px;
-}
-
-.post-date {
-  color: $links;
-  margin-left: 8px;
-}
-
-.post-date a {
-   color: HSLA(205, 18%, 68%, 1);
-}
-
-.post-options {
-  margin-top: 15px;
-  color: white;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 0;
-  font-size: .8em;
-}
-
-.post-options li {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
-  background-color: $dblue;
-}
-
-.post-options img {
-  vertical-align: middle;
-  padding: 7px 5px 7px 8px;
-  height: 2.06em;
-}
-
-.post-options span {
-  background-color: lblue;
-  color: white;
-  vertical-align: middle;
-  line-height: 28px;
-  padding: 6px 17px 6px 12px;
-}
-
-.post-options li:hover {
-  background-color: HSLA(204, 83%, 14%, 1);
-}
-
-.post-options li:hover span {
-  background-color: HSLA(209, 100%, 33%, 1);
-}
-
-.author {
+.socialmedia {
   text-align: center;
-}
+  font-family: "Oswald", sans-serif;
+  color: HSLA(206, 18%, 69%, 1); }
 
-.author h3 {
-  color: $lblue;
-  text-transform: uppercase;
-}
+.rightname {
+  text-align: center;
+  color: HSLA(206, 84%, 38%, 1);
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  /*margin-top:15px;*/ }
 
-.social-media li {
-  display: inline-block;
-  color: $links;
-  font-size: .8em;
-  padding: 0 4px;
-}
 
-.ad {
-  margin-top: 50px;
-}
 
-.ad img {
-  width: 100%;
-}
-
-.ad a {
-  color: $links;
-  font-size: .8em;
-  float: right;
-}
-
-.sidearticle {
-  clear: both;
-  margin-top: 60px;
-}
-
-.sidearticle h3 {
-  color: $lblue;
-  text-transform: uppercase;
-  font-family: $font1;
-  font-size: 1.2em;
-}
-
-.sidearticle p {
-  color: $links;
-  font-size: .8em;
-}
 
 
 
