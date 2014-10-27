@@ -1,4 +1,8 @@
+ // Bourbon & Neat
+@import '../../bower_components/bourbon/dist/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
 
+// Custom Styles
 /* variables */
 
 $dblue: RGBA(8, 52, 82, 1);
@@ -331,5 +335,4 @@ section a {
   margin: 4px;
   float: left;
   border-right-style: solid;
-}
 }
