@@ -2,337 +2,368 @@
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
-// Custom Styles
-/* variables */
 
-$dblue: RGBA(8, 52, 82, 1);
-$lblue: RGBA(24, 112, 180, 1);
-$parag: RGBA(96, 106, 113, 1);
-$links: RGBA(157, 174, 187, 1);
-$font1: 'Oswald', sans-serif;
-$font2: 'Open Sans', sans-serif;
-
-
-
-.SandP {
+header{
+  background-image:   url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg");
   width: 1300px;
-  border-bottom: 1px solid #b5b0b0;
-  height: 1430px;
-}
-
-.post-date li a {
-  text-decoration: underline;
-  color: $links;
-}
-
-li {
-  list-style: none;
-  margin: 0;
-}
-
-
-header {
-  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg");
-  height: 500px;
-  width: 1300px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.top {
-  max-width: 1000px;
-  margin-left: 100px;
+  height: 523px;
   overflow: hidden;
 }
-
-.top h1 {
-  font-family: $font1;
-  text-transform: uppercase;
-  font-size: 7em;
-  line-height: 1.3em;
+#container{
+  margin-left: 60px;
+  height:2104px;
+  max-width:1300px;
+}
+.pagetitle{
+  font-family: 'Open Sans';
+  text-align: center;
   color: white;
-  margin-bottom: 2px;
-  margin-top: 0px;
-  padding-top: 100px;
+  font-size: 100px;
+  font-weight: 400;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: -75px;
+  margin-top: -9px;
+  margin-bottom: 30px;
 }
-
-.inside {
-  overflow: auto;
-  vertical-align: middle;
-  margin-top: 0px;
-  font-size: 15px;
-  padding-left: 0px;
-  padding: 0px;
-
-}
-
-.wave {
-  float: left;
-
-.wave img {
-  vertical-align:middle;
-}
-}
-
-.links {
-  float: right;
-  overflow: auto;
-  vertical-align: middle;
-  margin-top: 5px;
-}
-
-.naviglinks {
-  padding-top: 1px;
-  float: right;
-  font-family: $font2;
-}
-
-
-header h1 {
-  color: white;
-  font-size: 5em;
+.subheading{
+  font-family: 'Open Sans';
   text-align: center;
-  margin-top: 100px;
-  font-family: $font1;
-  margin-bottom: 2px;
+  position: relative;
+  top: 31%;
+  right: 19px;
+  transform: translateY(-50%);
+  font-weight: 70;
 }
-
-header p {
-  text-align: center;
-  font-size: 1.1em;
-}
-
-li{
-  list-style: none;
-}
-
-
-/* Body of Page */
-
-.midcontent {
-  overflow: auto;
-  height: 1080px;
-}
-
-/////////////////////////
-.post {
-  width: 784px;
-  height: 882px;
-  float: left;
-}
-
-.site-author {
-  margin-bottom: 32px;
-}
-
-.post h1 {
-  color: HSLA(204, 82%, 18%, 1);
-  margin-top: 47px;
-  font-family: "Oswald", sans-serif;
-  font-size: 57px;
-  margin-left: 164px;
-  margin-bottom: -11px;
-}
-
-.post section {
-    margin-left: 162px;
-    font-family: "Oswald", sans-serif;
-    color: HSLA(205, 8%, 40%, 1);
-}
-
-.post blockquote {
-  color: HSLA(206, 84%, 38%, 1);
-  font-family: "Oswald", sans-serif;
-  margin-left: 185px;
-  font-size: 22px;
-}
-
-.post .name {
-  font-family: "Oswald", sans-serif;
-  color: HSLA(206, 84%, 38%, 1);
-  font-size: 13px;
-  }
-
-.post .on {
-  font-family: "Oswald", sans-serif;
-  color: HSLA(206, 18%, 69%, 1);
-  font-size: 14px;
-  }
-
-.post .date {
-  font-family: "Oswald", sans-serif;
-  color: HSLA(206, 18%, 69%, 1);
-  text-decoration: underline;
-  font-size: 14px;
-  }
-
-.post img {
-  height: 15px;
-  margin-left: 164px;
-  }
-
-
-//////////////////////////////////////////
-
-
-
-.rightcolumn {
-  float: right;
-  display: block;
-  width: 275px;
-  height: 882px;
-  margin-right: 160px; }
-  .rightcolumn .surferright {
-    height: 330px;
-    width: 275px;
-    float: left;
-    margin-top: 50px; }
-  .rightcolumn .date {
-    font-family: "Oswald", sans-serif;
-    color: HSLA(206, 18%, 69%, 1);
-    text-decoration: underline;
-    font-size: 12px;
-    float: right; }
-  .rightcolumn .sidebarheading {
-    float: left;
-    color: HSLA(206, 84%, 38%, 1);
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    margin-top: 30px; }
-  .rightcolumn .sidebartext {
-    margin-top: 10px;
-    color: HSLA(206, 18%, 69%, 1);
-    font-size: 14px;
-    font-weight: thin;
-    font-family: "Oswald", sans-serif;
-    clear: both;
-    display: block; }
-
-.rightimg {
-  margin-left: 92px;
-  margin-top: 70px;
-  height: 85px;
-  width: 85px; }
-
-.socialmedia {
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  color: HSLA(206, 18%, 69%, 1); }
-
-.rightname {
-  text-align: center;
-  color: HSLA(206, 84%, 38%, 1);
-  font-family: "Oswald", sans-serif;
-  font-size: 20px;
-  /*margin-top:15px;*/ }
-
-
-
-
-
-
-/* Most Popular Posts */
-
-section {
-  width: 1300px;
-  clear: both;
-  border-top: $links solid 1px;
-  padding-top: 50px;
-  margin-top: 20px;
-  overflow: hidden;
-
-section h1 {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 58px;}
-
-}
-
-section li {
-  display: inline-block;
-  float: left;
-  height: 330px;
-  width: 25%;
-}
-
-section div {
-  background-color: HSLA(209, 100%, 33%, .6);
-  width: 100%;
-  height: 100%;
-
-  section div:hover {
-    opacity: 1;
-  }
-  section div:hover a {
-    color: white;
-  }
-}
-
-section a {
-  color: $dblue;
-  font-family: $font1;
-  font-size: 2em;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 0 15px;
+.about{
+  font-family: 'Oswald';
   position: absolute;
+  width: 200px;
+  text-align: right;
+  top: 22px;
+  right: 236px;
 }
-
-
-.article1 {
-  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-1.jpg");
+.search{
+  font-family: 'Oswald';
+  position: absolute;
+  width: 200px;
+  text-align: right;
+  margin-top: -135px;
+  margin-left: 1010px;
 }
-
-.article2 {
-  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-2.jpg");
+.magnify{
+  position: absolute;
+  top:10;
+  right:20px;
+  width: 50px;
 }
-
-.article3 {
-  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-3.jpg");
+.logo{
+  position: absolute;
+  width: auto;
+  text-align: left;
+  top: 14px;
+  left: 146px;
 }
-
-.article4 {
-  background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-4.jpg");
+.blog{
+  position: absolute;
+  width: auto;
+  text-align: left;
+  top: 26px;
+  left: 204px;
+  font-family:'Open Sans';
 }
-
-
-/* Footer */
-
-.footer {
-  width: 1300px;
-  margin-top: 0px;
-  background-color: $dblue;
+.body{
   float: left;
-  display: block;
+  width: 600px;
+  font-family: 'Oswald';
+  margin-left: 160px;
+  margin-top: -2px;
+  margin-bottom: 70px;
+  margin-right: 75px;
+}
+h1{
+  margin-bottom: -15px;
+  font-family: 'Oswald';
+  line-height: 67px;
+  font-size: 400%;
+  width: 612px;
+  color:HSLA(204, 82%, 18%, 1);
+  margin-top: 66px;
 
-
-.leftfoot {
-  float: left;
-  width: 370px;
-  height: 55px;
-  margin-top: 25px;
-  margin-left: 165px;
-  font-family: $font2;
-  font-size: 13px;
-  color: $links;
+}
+.avatar{
+  margin-left: 75px;
+  margin-right: 223px;
+  margin-top: 88px;
 }
 
-.rightfoot {
+aside{
   float: right;
-  display: block;
-  color: $links;
-  font-family: $links;
-  font-size: 15px;
-  padding: 0px;
+  width: 400px;
+}
+li{
+  display: inline;
+  padding: 2px;
+}
+.littleavatar{
+  height: 22px;
   margin-top: 30px;
-  margin-right: 130px;
+  margin-left: 5px;
 }
 
-.bottomnav li {
-  list-style: none;
-  padding: 4px;
-  margin: 4px;
+.anne{
+  font-family: 'Open Sans';
+  font-size: 13px;
+  color: HSLA(205, 18%, 68%, 1)
+}
+.anne2{
+  font-family: 'Oswald';
+  color: HSLA(207, 85%, 37%, 1);
+  margin-left: 90px;
+  width: 80px;
+  margin-top: 6px;
+  margin-bottom: -19px;
+}
+.date{
+  font-family: 'Open Sans';
+  font-size: 13px;
+  margin-left: 14px;
+  color: HSLA(205, 18%, 68%, 1);
+  text-decoration: underline;
+}
+.socialmedia{
+  list-style-type: none;
+  font-family: 'Open Sans';
+  font-size:14px;
+  color: HSLA(205, 18%, 68%, 1);
+  margin-bottom: 48px;
+  //margin-left: -19px;
+}
+
+.bodytext{
+  font-family:'Open Sans';
+  color:HSLA(205, 8%, 44%, 1);
+  margin-top: 2px;
+}
+.bodytext0{
+  font-family:'Open Sans';
+  color:HSLA(205, 8%, 44%, 1);
+  margin-top: 36px;
+}
+.bodytext1{
+  font-family:'Open Sans';
+  color:HSLA(205, 8%, 44%, 1);
+  margin-top: 39px;
+}
+.bodytext2{
+  font-family:'Open Sans';
+  color:HSLA(205, 8%, 44%, 1);
+  margin-top: 37px;
+}
+.bodytext3{
+  font-family:'Open Sans';
+  color:HSLA(205, 8%, 44%, 1);
+  margin-top: 37px;
+}
+
+.quote{
+  border-style: solid;
+  border-left-color: HSLA(205, 18%, 68%, 1);
+  border-left-width: 2px;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+  height: 42px;
+  margin-left: 7px;
+  margin-top: 32px;
+  padding-top: 12px;
+
+}
+.woahdude{
+  font-family: 'Open Sans';
+  color: HSLA(207, 85%, 37%, 1);
+  font-size: 27px;
+  margin-left: 10px;
+}
+.paddleboard{
+  height: 300px;
+  //margin-left: -23px;
+  margin-top: 7px;
+}
+.caption{
+  text-align: right;
+  color: HSLA(205, 18%, 68%, 1);
+  text-decoration: underline;
+  font-family: 'Open Sans';
+  width: 277px;
+  font-size:13px;
+  margin-top: 3px;
+  //margin-left: -22px;
+}
+
+.links{
+  //list-style-type: none;
+  font-family: 'Open Sans';
+  font-color: HSLA(0, 0%, 100%, 1);
+  margin-right: 0px;
+  font-size: .8em;
+  //margin-top: -5px;
+  //margin-left: -51px;
+  }
+
+.darkgraybox{
+  background-color:HSLA(205, 8%, 40%, 1);
+  height:45px;
+  color: white;
+  margin-left:10px;
+  margin-right: 6px;
+  display: inline;
+  padding-left: 9px;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+
+.icons{
+  background-color:HSLA(206, 18%, 69%, 1);
+  width:100px;
+  padding:10px;
+  margin-left: 10px;
+
+}
+.icons:hover{
+  background-color: HSLA(206, 71%, 34%, 1);
+}
+
+h3{
+  font-family: 'Oswald';
+  //margin-left: -23px;
+  margin-top: 42px;
+
+}
+.sideparagraph{
+  width: 300px;
+  font-family: 'Open Sans';
+  color: HSLA(206, 18%, 69%, 1);
+  //margin-left: -24px;
+  margin-bottom: 176px;
+  margin-top: -13PX;
+}
+
+.popularposts{
+  font-family: 'Oswald';
+  color: HSLA(204, 82%, 18%, 1);
+  font-size: 60px;
+  margin-top: 9px;
+  text-align: center;
+}
+
+.foot{
+  height: 114px;
+  width: 1300px;
+  border-top-style: solid;
+  border-color:HSLA(206, 18%, 69%, 1);
+  border-width: 1px;
+  clear:both;
+}
+
+.hoverbackground{
+  background-color: HSLA(206, 71%, 34%, 1);
+  z-index: 1;
+  width: 100%
+}
+.pictures{
+  width:1300px;
+  padding-left: 0px;
+  margin-left: 3px;
+  cursor: pointer;
+
+}
+
+.bottompictures{
+  height: 330px;
+  margin: -2px;
+  position:relative;
+  opacity: 0.4;
+}
+.posts{
+  list-style-type: none;
+  font-family: 'Oswald';
+  color: HSLA(206, 18%, 69%, 1);
+  position: absolute;
+  z-index: 100;
+  font-size: xx-large;
+  margin-top: 296px;
+  color: HSLA(204, 82%, 18%, 1);
+}
+#post1{
+  margin-right: 42px;
+  margin-left: 7px;
+}
+
+#post2{
+  margin-right: 170px;
+  margin-left: 21px;
+}
+
+#post3{
+  width: 228px;
+  display: block;
+  margin-left: 666px;
+  margin-bottom: -90px;
+  margin-top: -77px;
+  line-height: 36px;
+}
+
+#post4{
+  float: right;
+  margin-left: 991px;
+  margin-top: 46px;
+}
+
+
+.bottompictures:hover{
+  opacity: 1.0;
+  color: white;
+
+}
+
+.bottom{
+
+  background-color:HSLA(204, 82%, 18%, 1);
+  width: 1310px;
+  height: 120px;
+  //clear: both;
+  margin-top: -18px;
+  //margin-left: -9px;
+  position: relative;
+}
+.logo2{
+  float:left;
+  position: absolute;
+  width: auto;
+  text-align: left;
+  top: 31px;
+  left: 171px;
+  }
+
+.copyright{
+  font-family: 'Open Sans';
+  color: HSLA(205, 18%, 68%, 1);
+  margin-bottom: 10px;
+  margin-left: 229px;
+  margin-top: 41px;
   float: left;
-  border-right-style: solid;
+  font-size: .8em;
+}
+
+.navitems{
+  font-family:'Open Sans';
+  color:HSLA(205, 18%, 68%, 1);
+  font-size: .8em;
+  float: right;
+  margin-top: 41px;
+  margin-right: 163px;
+  letter-spacing: .5px;
+
 }
