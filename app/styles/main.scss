@@ -14,7 +14,7 @@ header{
   height:2104px;
   max-width:1300px;
 }
-.pagetitle{
+.title{
   font-family: 'Open Sans';
   text-align: center;
   color: white;
@@ -22,12 +22,11 @@ header{
   font-weight: 400;
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
   margin-left: -75px;
   margin-top: -9px;
   margin-bottom: 30px;
 }
-.subheading{
+.heading{
   font-family: 'Open Sans';
   text-align: center;
   position: relative;
@@ -90,40 +89,16 @@ h1{
   width: 612px;
   color:HSLA(204, 82%, 18%, 1);
   margin-top: 66px;
-
 }
-.avatar{
-  margin-left: 75px;
-  margin-right: 223px;
-  margin-top: 88px;
-}
-
-aside{
-  float: right;
-  width: 400px;
-}
-li{
-  display: inline;
-  padding: 2px;
-}
-.littleavatar{
+.smallpic{
   height: 22px;
   margin-top: 30px;
   margin-left: 5px;
 }
-
 .anne{
   font-family: 'Open Sans';
   font-size: 13px;
   color: HSLA(205, 18%, 68%, 1)
-}
-.anne2{
-  font-family: 'Oswald';
-  color: HSLA(207, 85%, 37%, 1);
-  margin-left: 90px;
-  width: 80px;
-  margin-top: 6px;
-  margin-bottom: -19px;
 }
 .date{
   font-family: 'Open Sans';
@@ -132,42 +107,22 @@ li{
   color: HSLA(205, 18%, 68%, 1);
   text-decoration: underline;
 }
-.socialmedia{
-  list-style-type: none;
-  font-family: 'Open Sans';
-  font-size:14px;
-  color: HSLA(205, 18%, 68%, 1);
-  margin-bottom: 48px;
-  //margin-left: -19px;
-}
-
 .bodytext{
   font-family:'Open Sans';
   color:HSLA(205, 8%, 44%, 1);
   margin-top: 2px;
 }
-.bodytext0{
+.para1{
   font-family:'Open Sans';
   color:HSLA(205, 8%, 44%, 1);
   margin-top: 36px;
 }
-.bodytext1{
+.para2{
   font-family:'Open Sans';
   color:HSLA(205, 8%, 44%, 1);
   margin-top: 39px;
 }
-.bodytext2{
-  font-family:'Open Sans';
-  color:HSLA(205, 8%, 44%, 1);
-  margin-top: 37px;
-}
-.bodytext3{
-  font-family:'Open Sans';
-  color:HSLA(205, 8%, 44%, 1);
-  margin-top: 37px;
-}
-
-.quote{
+.blockquote{
   border-style: solid;
   border-left-color: HSLA(205, 18%, 68%, 1);
   border-left-width: 2px;
@@ -178,41 +133,30 @@ li{
   margin-left: 7px;
   margin-top: 32px;
   padding-top: 12px;
-
 }
-.woahdude{
+.quote{
   font-family: 'Open Sans';
   color: HSLA(207, 85%, 37%, 1);
   font-size: 27px;
   margin-left: 10px;
 }
-.paddleboard{
-  height: 300px;
-  //margin-left: -23px;
-  margin-top: 7px;
+.para3{
+  font-family:'Open Sans';
+  color:HSLA(205, 8%, 44%, 1);
+  margin-top: 37px;
 }
-.caption{
-  text-align: right;
-  color: HSLA(205, 18%, 68%, 1);
-  text-decoration: underline;
-  font-family: 'Open Sans';
-  width: 277px;
-  font-size:13px;
-  margin-top: 3px;
-  //margin-left: -22px;
+.para4{
+  font-family:'Open Sans';
+  color:HSLA(205, 8%, 44%, 1);
+  margin-top: 37px;
 }
-
 .links{
-  //list-style-type: none;
   font-family: 'Open Sans';
   font-color: HSLA(0, 0%, 100%, 1);
   margin-right: 0px;
   font-size: .8em;
-  //margin-top: -5px;
-  //margin-left: -51px;
-  }
-
-.darkgraybox{
+}
+.littleboxes{
   background-color:HSLA(205, 8%, 40%, 1);
   height:45px;
   color: white;
@@ -223,42 +167,68 @@ li{
   padding-bottom:10px;
   padding-top:10px;
 }
-
 .icons{
   background-color:HSLA(206, 18%, 69%, 1);
   width:100px;
   padding:10px;
   margin-left: 10px;
-
 }
 .icons:hover{
   background-color: HSLA(206, 71%, 34%, 1);
 }
-
+li{
+  display: inline;
+  padding: 2px;
+}
+.circlepic{
+  margin-left: 75px;
+  margin-right: 223px;
+  margin-top: 88px;
+}
+.authorname{
+  font-family: 'Oswald';
+  color: HSLA(207, 85%, 37%, 1);
+  margin-left: 90px;
+  width: 80px;
+  margin-top: 6px;
+  margin-bottom: -19px;
+}
+aside{
+  float: right;
+  width: 400px;
+}
+.socialmedia{
+  list-style-type: none;
+  font-family: 'Open Sans';
+  font-size:14px;
+  color: HSLA(205, 18%, 68%, 1);
+  margin-bottom: 48px;
+}
+.sidepic{
+  height: 300px;
+  margin-top: 7px;
+}
+.aboutAd{
+  text-align: right;
+  color: HSLA(205, 18%, 68%, 1);
+  text-decoration: underline;
+  font-family: 'Open Sans';
+  width: 277px;
+  font-size:13px;
+  margin-top: 3px;
+}
 h3{
   font-family: 'Oswald';
-  //margin-left: -23px;
   margin-top: 42px;
-
 }
 .sideparagraph{
   width: 300px;
   font-family: 'Open Sans';
   color: HSLA(206, 18%, 69%, 1);
-  //margin-left: -24px;
   margin-bottom: 176px;
   margin-top: -13PX;
 }
-
-.popularposts{
-  font-family: 'Oswald';
-  color: HSLA(204, 82%, 18%, 1);
-  font-size: 60px;
-  margin-top: 9px;
-  text-align: center;
-}
-
-.foot{
+.footer{
   height: 114px;
   width: 1300px;
   border-top-style: solid;
@@ -266,25 +236,12 @@ h3{
   border-width: 1px;
   clear:both;
 }
-
-.hoverbackground{
-  background-color: HSLA(206, 71%, 34%, 1);
-  z-index: 1;
-  width: 100%
-}
-.pictures{
-  width:1300px;
-  padding-left: 0px;
-  margin-left: 3px;
-  cursor: pointer;
-
-}
-
-.bottompictures{
-  height: 330px;
-  margin: -2px;
-  position:relative;
-  opacity: 0.4;
+.popularposts{
+  font-family: 'Oswald';
+  color: HSLA(204, 82%, 18%, 1);
+  font-size: 60px;
+  margin-top: 9px;
+  text-align: center;
 }
 .posts{
   list-style-type: none;
@@ -300,12 +257,10 @@ h3{
   margin-right: 42px;
   margin-left: 7px;
 }
-
 #post2{
   margin-right: 170px;
   margin-left: 21px;
 }
-
 #post3{
   width: 228px;
   display: block;
@@ -314,28 +269,37 @@ h3{
   margin-top: -77px;
   line-height: 36px;
 }
-
 #post4{
   float: right;
   margin-left: 991px;
   margin-top: 46px;
 }
-
-
-.bottompictures:hover{
+.background{
+  background-color: HSLA(206, 71%, 34%, 1);
+  z-index: 1;
+  width: 100%
+}
+.bottompictures{
+  width:1300px;
+  padding-left: 0px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.boxpictures{
+  height: 330px;
+  margin: -2px;
+  position:relative;
+  opacity: 0.4;
+}
+.boxpictures:hover{
   opacity: 1.0;
   color: white;
-
 }
-
-.bottom{
-
+.bottomnav{
   background-color:HSLA(204, 82%, 18%, 1);
   width: 1310px;
   height: 120px;
-  //clear: both;
   margin-top: -18px;
-  //margin-left: -9px;
   position: relative;
 }
 .logo2{
@@ -345,8 +309,7 @@ h3{
   text-align: left;
   top: 31px;
   left: 171px;
-  }
-
+}
 .copyright{
   font-family: 'Open Sans';
   color: HSLA(205, 18%, 68%, 1);
@@ -365,5 +328,4 @@ h3{
   margin-top: 41px;
   margin-right: 163px;
   letter-spacing: .5px;
-
 }
