@@ -2,6 +2,12 @@
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
+$mainFont: 'Open Sans';
+$osFont: 'Oswald';
+$dBlue: HSLA(204, 82%, 18%, 1);
+$bBlue: HSLA(207, 85%, 37%, 1);
+$lGray: HSLA(205, 18%, 68%, 1);
+$dGray: HSLA(205, 8%, 44%, 1);
 
 header{
   background-image:   url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg");
@@ -15,7 +21,7 @@ header{
   max-width:1300px;
 }
 .title{
-  font-family: 'Open Sans';
+  font-family: $mainFont;
   text-align: center;
   color: white;
   font-size: 100px;
@@ -27,14 +33,14 @@ header{
   margin-bottom: 30px;
 }
 .heading{
-  font-family: 'Open Sans';
+  font-family: $mainFont;
   text-align: center;
   position: relative;
   top: 42%;
   right: 19px;
 }
 .about{
-  font-family: 'Oswald';
+  font-family: $osFont;
   position: absolute;
   width: 200px;
   text-align: right;
@@ -42,7 +48,7 @@ header{
   right: 236px;
 }
 .search{
-  font-family: 'Oswald';
+  font-family: $osFont;
   position: absolute;
   width: 200px;
   text-align: right;
@@ -68,12 +74,12 @@ header{
   text-align: left;
   top: 26px;
   left: 204px;
-  font-family:'Open Sans';
+  font-family:$mainFont;
 }
 .body{
   float: left;
   width: 600px;
-  font-family: 'Oswald';
+  font-family: $osFont;
   margin-left: 160px;
   margin-top: -2px;
   margin-bottom: 70px;
@@ -81,11 +87,11 @@ header{
 }
 h1{
   margin-bottom: -15px;
-  font-family: 'Oswald';
+  font-family: $osFont;
   line-height: 67px;
   font-size: 400%;
   width: 612px;
-  color:HSLA(204, 82%, 18%, 1);
+  color: $dBlue;
   margin-top: 66px;
 }
 .smallpic{
@@ -94,35 +100,35 @@ h1{
   margin-left: 5px;
 }
 .anne{
-  font-family: 'Open Sans';
+  font-family: $mainFont;
   font-size: 13px;
-  color: HSLA(205, 18%, 68%, 1)
+  color: $lGray;
 }
 .date{
-  font-family: 'Open Sans';
+  font-family: $mainFont;
   font-size: 13px;
   margin-left: 14px;
-  color: HSLA(205, 18%, 68%, 1);
+  color: $lGray;
   text-decoration: underline;
 }
 .bodytext{
-  font-family:'Open Sans';
-  color:HSLA(205, 8%, 44%, 1);
+  font-family: $mainFont;
+  color: $dGray;
   margin-top: 2px;
 }
 .para1{
-  font-family:'Open Sans';
-  color:HSLA(205, 8%, 44%, 1);
+  font-family: $mainFont;
+  color:$dGray;
   margin-top: 36px;
 }
 .para2{
-  font-family:'Open Sans';
-  color:HSLA(205, 8%, 44%, 1);
+  font-family: $mainFont;
+  color:$dGray;
   margin-top: 39px;
 }
 .blockquote{
   border-style: solid;
-  border-left-color: HSLA(205, 18%, 68%, 1);
+  border-left-color: $lGray;
   border-left-width: 2px;
   border-bottom: none;
   border-right: none;
@@ -133,24 +139,23 @@ h1{
   padding-top: 12px;
 }
 .quote{
-  font-family: 'Open Sans';
-  color: HSLA(207, 85%, 37%, 1);
+  font-family: $mainFont;
+  color: $bBlue;
   font-size: 27px;
   margin-left: 10px;
 }
 .para3{
-  font-family:'Open Sans';
-  color:HSLA(205, 8%, 44%, 1);
+  font-family: $mainFont;
+  color: $dGray;
   margin-top: 37px;
 }
 .para4{
-  font-family:'Open Sans';
-  color:HSLA(205, 8%, 44%, 1);
+  font-family: $mainFont;
+  color: $dGray;
   margin-top: 37px;
 }
 .links{
-  font-family: 'Open Sans';
-  font-color: HSLA(0, 0%, 100%, 1);
+  font-family: $mainFont;
   margin-right: 0px;
   font-size: .8em;
 }
@@ -166,7 +171,7 @@ h1{
   padding-top:10px;
 }
 .icons{
-  background-color:HSLA(206, 18%, 69%, 1);
+  background-color: $lGray;
   width:100px;
   padding:10px;
   margin-left: 10px;
@@ -184,8 +189,8 @@ li{
   margin-top: 88px;
 }
 .authorname{
-  font-family: 'Oswald';
-  color: HSLA(207, 85%, 37%, 1);
+  font-family: $osFont;
+  color: $bBlue;
   margin-left: 90px;
   width: 80px;
   margin-top: 6px;
@@ -197,9 +202,9 @@ aside{
 }
 .socialmedia{
   list-style-type: none;
-  font-family: 'Open Sans';
+  font-family: $mainFont;
   font-size:14px;
-  color: HSLA(205, 18%, 68%, 1);
+  color: $lGray;
   margin-bottom: 48px;
 }
 .sidepic{
@@ -208,21 +213,21 @@ aside{
 }
 .aboutAd{
   text-align: right;
-  color: HSLA(205, 18%, 68%, 1);
+  color: $lGray;
   text-decoration: underline;
-  font-family: 'Open Sans';
+  font-family: $mainFont;
   width: 277px;
   font-size:13px;
   margin-top: 3px;
 }
 h3{
-  font-family: 'Oswald';
+  font-family: $osFont;
   margin-top: 42px;
 }
 .sideparagraph{
   width: 300px;
-  font-family: 'Open Sans';
-  color: HSLA(206, 18%, 69%, 1);
+  font-family: $mainFont;
+  color: $lGray;
   margin-bottom: 176px;
   margin-top: -13PX;
 }
@@ -230,26 +235,26 @@ h3{
   height: 114px;
   width: 1300px;
   border-top-style: solid;
-  border-color:HSLA(206, 18%, 69%, 1);
+  border-color: $lGray;
   border-width: 1px;
   clear:both;
 }
 .popularposts{
-  font-family: 'Oswald';
-  color: HSLA(204, 82%, 18%, 1);
+  font-family: $osFont;
+  color: $dBlue;
   font-size: 60px;
   margin-top: 9px;
   text-align: center;
 }
 .posts{
   list-style-type: none;
-  font-family: 'Oswald';
-  color: HSLA(206, 18%, 69%, 1);
+  font-family: $osFont;
+  color: $lGray;
   position: absolute;
   z-index: 100;
   font-size: xx-large;
   margin-top: 296px;
-  color: HSLA(204, 82%, 18%, 1);
+  color: $dBlue;
 }
 #post1{
   margin-right: 42px;
@@ -281,7 +286,6 @@ h3{
   width:1300px;
   padding-left: 0px;
   margin-left: 3px;
-  cursor: pointer;
 }
 .boxpictures{
   height: 330px;
@@ -294,7 +298,7 @@ h3{
   color: white;
 }
 .bottomnav{
-  background-color:HSLA(204, 82%, 18%, 1);
+  background-color: $dBlue;
   width: 1310px;
   height: 120px;
   margin-top: -18px;
@@ -309,8 +313,8 @@ h3{
   left: 171px;
 }
 .copyright{
-  font-family: 'Open Sans';
-  color: HSLA(205, 18%, 68%, 1);
+  font-family: $mainFont;
+  color: $lGray;
   margin-bottom: 10px;
   margin-left: 229px;
   margin-top: 41px;
@@ -319,8 +323,8 @@ h3{
 }
 
 .navitems{
-  font-family:'Open Sans';
-  color:HSLA(205, 18%, 68%, 1);
+  font-family: $mainFont;
+  color:$lGray;
   font-size: .8em;
   float: right;
   margin-top: 41px;
